@@ -1,0 +1,114 @@
+body {
+	padding: 0%;
+	margin: 0%;
+}
+p {
+	margin: 0%;
+	padding: 0%;
+}
+
+.radio-image {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+}
+
+.header-container {
+	background-color: #333;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-container
+	> a {
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px
+		16px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.header-container
+	> a:hover {
+	background: #ddd;
+	color: black;
+}
+
+.register-page-container {
+	height: 100vh;
+	position: relative;
+	display: grid;
+
+	grid-template-columns: repeat(
+		12,
+		1fr
+	);
+
+	grid-template-rows: repeat(
+		9,
+		1fr
+	);
+}
+
+.register-container {
+	position: relative;
+	background-color: #a87438;
+	grid-column: 4/10;
+	grid-row: 2/9;
+
+	display: grid;
+
+	grid-template-columns: repeat(
+		12,
+		1fr
+	);
+
+	grid-template-rows: repeat(
+		7,
+		1fr
+	);
+}
+
+.form-container {
+	grid-column: 2/12;
+	grid-row: 1/7;
+
+	display: grid;
+	grid-template-columns: repeat(
+		1,
+		1fr
+	);
+}
+
+.form-container
+	> label {
+	font-size: 25px;
+	padding-top: 10px;
+	color: #fefefd;
+}
+
+.form-container
+	> input {
+	font-size: 15px;
+	border-radius: 4px;
+}
+
+.form-container
+	> button {
+	margin-top: 20px;
+
+	height: 40px;
+	width: 90px;
+}
+
+.form-container
+	> select {
+	font-size: 20px;
+	border-radius: 4px;
+}
+
+.login-button {
+	margin-top: 20px;
+	height: 50px;
+}
